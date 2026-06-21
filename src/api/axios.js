@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-baseURL: 'https://edu-aura-backend-t1du.vercel.app/api',
+  baseURL: 'https://edu-aura-backend-ebon.vercel.app/api',
 
 });
 
