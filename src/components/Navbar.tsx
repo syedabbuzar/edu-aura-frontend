@@ -93,7 +93,7 @@ const Navbar = () => {
             aria-label="Toggle menu"
           >
             <Menu size={22} className="sm:w-[26px] sm:h-[26px]" />
-          </button>
+          </button>     
         </div>
       </div>
 
