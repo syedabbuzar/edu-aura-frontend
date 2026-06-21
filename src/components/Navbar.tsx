@@ -74,7 +74,7 @@ const Navbar = () => {
           <ThemeToggle />
 
           {/* AI Button - Like Reference */}
-          <button
+          {/* <button
             className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 md:px-4 py-2 sm:py-2.5 bg-transparent text-primary rounded-lg sm:rounded-xl border border-primary/60 hover:border-primary hover:shadow-glow-sm transition-all duration-300 group"
             onClick={() => {
               const event = new CustomEvent('openEduBot');
@@ -84,7 +84,7 @@ const Navbar = () => {
             <Sparkles className="h-3.5 w-3.5 sm:h-4 sm:w-4 group-hover:animate-spin" />
             <span className="text-xs sm:text-sm font-semibold hidden md:inline">Try EduAura AI</span>
             <Sparkles className="h-3.5 w-3.5 sm:h-4 sm:w-4 group-hover:animate-spin hidden md:block" />
-          </button>
+          </button> */}
 
           {/* HAMBURGER MENU - Always visible */}
           <button
